@@ -1,6 +1,5 @@
 package dev.godjango.sunmiPaymentLibrary
 
-
 import android.annotation.SuppressLint
 import android.os.*
 import android.util.Log

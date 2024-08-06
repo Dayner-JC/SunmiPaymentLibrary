@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-    implementation(files("libs/classes.jar"))
+    implementation(files("libs/sunmiPaymentLibrary.jar"))
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -51,14 +51,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-}
-
-tasks.register<Jar>("jar") {
-    archiveClassifier.set("release")
-    from(android.sourceSets["main"].java.srcDirs)
-    manifest {
-        attributes["Implementation-Title"] = "sunmiPaymentLibrary"
-        attributes["Implementation-Version"] = version
-        attributes["Main-Class"] = "dev.godjango.sunmiPaymentLibrary.MainActivity"
-    }
 }

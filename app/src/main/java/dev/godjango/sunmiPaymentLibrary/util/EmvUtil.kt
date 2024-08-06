@@ -1,13 +1,13 @@
 package dev.godjango.sunmiPaymentLibrary.util;
 
 import android.util.Log
-import dev.godjango.sunmiPaymentLibrary.BaseApp
 import com.sunmi.pay.hardware.aidl.AidlConstants
 import com.sunmi.pay.hardware.aidlv2.bean.AidV2
 import com.sunmi.pay.hardware.aidlv2.bean.CapkV2
 import com.sunmi.pay.hardware.aidlv2.bean.EmvTermParamV2
 import com.sunmi.pay.hardware.aidlv2.emv.EMVOptV2
 import com.sunmi.pay.hardware.aidlv2.security.SecurityOptV2
+import dev.godjango.sunmiPaymentLibrary.BaseApp
 import java.lang.Exception
 
 class EmvUtil {
